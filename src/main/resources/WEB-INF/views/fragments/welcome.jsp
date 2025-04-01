@@ -18,4 +18,5 @@
 <div class="jumbotron">
 	<h1><acme:print code="master.welcome.title"/></h1>
 	<acme:print code="master.welcome.text"/>
+	<jsp:include page="/WEB-INF/views/service/show.jsp"/>
 </div>
